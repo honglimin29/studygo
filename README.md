@@ -6,4 +6,4 @@
 
 ### 开发环境准备
 
-[从零开始搭建Go语言开发环境]()
+[从零开始搭建Go语言开发环境](/doc/development/install_go_dev.md)
