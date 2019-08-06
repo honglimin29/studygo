@@ -1,13 +1,13 @@
 ## 从零开始搭建Go语言开发环境
 
-一步一步，从零搭建Go语言开发环境。
+一步一步，从零开始搭建Go语言开发环境。
 
 # 安装Go语言及搭建Go语言开发环境
-![](/image/development/install_go_dev_1.jpg)
+![](/static/image/development/install_go_dev_1.jpg)
 
 ### 下载
 
-#### 下载地址
+#### 下载地址go
 
 Go官网下载地址：[https://golang.org/dl/](https://golang.org/dl/)
 
@@ -16,7 +16,7 @@ Go官方镜像站（推荐）：[https://golang.google.cn/dl/](https://golang.go
 #### 版本的选择
 
 Windows平台和Mac平台推荐下载可执行文件版，Linux平台下载压缩文件版。
-![](/image/development/install_go_dev_2.png)
+![](/static/image/development/install_go_dev_2.png)
 
 ### 安装
 
@@ -25,15 +25,15 @@ Windows平台和Mac平台推荐下载可执行文件版，Linux平台下载压�
 此安装实例以 `64位Win10`系统安装 `Go1.11.5可执行文件版本`为例。
 
 将上一步选好的安装包下载到本地。  
-![](/image/development/install_go_dev_3.png)
+![](/static/image/development/install_go_dev_3.png)
   
 双击下载好的文件
 
-![](/image/development/install_go_dev_4.png)
+![](/static/image/development/install_go_dev_4.png)
 
-![](/image/development/install_go_dev_5.png)
+![](/static/image/development/install_go_dev_5.png)
 
-![](/image/development/install_go_dev_6.png)
+![](/static/image/development/install_go_dev_6.png)
 
 #### Linux下安装
 
@@ -62,7 +62,7 @@ go version go1.11.5 linux/amd64
 #### Mac下安装
 
 下载可执行文件版，直接点击**下一步**安装即可，默认会将go安装到`/usr/local/go`目录下。
-![](/image/development/mac_install_go.png)
+![](/static/image/development/mac_install_go.png)
 
 #### 检查
 上一步安装过程执行完毕后，可以打开终端窗口，输入`go version`命令，查看安装的Go版本。

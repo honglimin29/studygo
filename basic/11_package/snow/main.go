@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/honglimin29/studygo/src/lesson11/clac"
+	"github.com/honglimin29/studygo/basic/11_package/clac"
 )
 
 func main() {
