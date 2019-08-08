@@ -66,3 +66,45 @@ go version go1.11.5 linux/amd64
 
 #### 检查
 上一步安装过程执行完毕后，可以打开终端窗口，输入`go version`命令，查看安装的Go版本。
+
+### 配置GOPATH
+
+`GOPATH`是一个环境变量，用来表明你写的go项目的存放路径（工作目录）。
+
+`GOPATH`路径最好只设置一个，所有的项目代码都放到`GOPATH`的`src`目录下。
+
+Linux和Mac平台就参照上面配置环境变量的方式将自己的工作目录添加到环境变量中即可。 Windows平台按下面的步骤将`D:\code\go`添加到环境变量：
+
+![](/static/image/development/install_go_dev_7.png)
+
+![](/static/image/development/install_go_dev_8.png)
+
+![](/static/image/development/install_go_dev_9.png)
+
+![](/static/image/development/install_go_dev_10.png)
+
+![](/static/image/development/install_go_dev_11.png)
+
+![](/static/image/development/install_go_dev_12.png)
+
+![](/static/image/development/install_go_dev_13.png)
+
+在 Go 1.8 版本之前，`GOPATH`环境变量默认是空的。从 Go 1.8 版本开始，Go 开发包在安装完成后会为 `GOPATH`设置一个默认目录，参见下表。
+
+**GOPATH在不同操作系统平台上的默认值**
+
+| 平台 | GOPATH默认值	| 举例 |
+| ----- | ----- | ----- |
+| Windows | %USERPROFILE%/go | C:\Users\用户名\go |
+| Unix | $HOME/go | /home/用户名/go |
+同时，我们将 `GOROOT`下的bin目录及`GOPATH`下的bin目录都添加到环境变量中。
+
+### Go项目结构 
+
+在进行Go语言开发的时候，我们的代码总是会保存在`$GOPATH/src`目录下。在工程经过`go build`、`go install`或`go get`等指令后，会将下载的第三方包源代码文件放在`$GOPATH/src`目录下， 产生的二进制可执行文件放在 `$GOPATH/bin`目录下，生成的中间缓存文件会被保存在 `$GOPATH/pkg` 下。
+
+如果我们使用版本管理工具（Version Control System，VCS。常用如Git）来管理我们的项目代码时，我们只需要添加`$GOPATH/src`目录的源代码即可。`bin` 和 `pkg` 目录的内容无需版本控制。
+
+### 适合个人开发者
+
+
