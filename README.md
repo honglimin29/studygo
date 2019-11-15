@@ -1,12 +1,14 @@
-# Go语言学习之路
+# Go语言学习笔记
+
+## Go语言基础知识
 
 ### Go语言介绍
 
-[为什么你应该学习Go语言?](/introduction/about_golang.md)
+[为什么你应该学习Go语言?](/doc/introduction/about_golang.md)
 
 ### 开发环境准备
 
-[从零开始搭建Go语言开发环境](/development/install_go_dev.md)
+[从零开始搭建Go语言开发环境](/doc/development/install_go_dev.md)
 
 ### Go语言基础
 
@@ -49,6 +51,8 @@
 
 [Go语言基础之测试]()
 
+## Go语言进阶知识
+
 ### Go语言框架
 
 [微服务框架 - micro]()
@@ -57,4 +61,4 @@
 
 ### 其它
 
-[解决国内go get被墙的问题 - gopm ](/other/install_gopm.md)
+[解决国内go get被墙的问题 - gopm ](/doc/other/install_gopm.md)

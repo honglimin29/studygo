@@ -1,6 +1,6 @@
 ## 为什么你应该学习Go语言？
 
-终于等到你！Go语言——让你用写Python代码的开发效率编写C语言代码。
+Go语言——让你用写Python代码的开发效率编写C语言代码。
 
 # 为什么互联网世界需要Go语言
 
@@ -10,7 +10,7 @@
 
 > 摩尔定律：当价格不变时，集成电路上可容纳的元器件的数目，约每隔18-24个月便会增加一倍，性能也将提升一倍。 换言之，每一美元所能买到的电脑性能，将每隔18-24个月翻一倍以上。
 
-![](/static/image/introduction/about_golang_1.jpg)
+![](/doc/static/image/introduction/about_golang_1.jpg)
 
 从上面的图表可以看出，近十年单线程性能和处理器频率保持稳定。我们不能像之前一样把添加更多晶体管当成是解决方案，因为在较小规模上一些量子特性开始出现（如隧道效应），并且因为在同样小的空间里放置更多晶体管的代价非常昂贵，每1美元可以添加的晶体管数量开始下降。
 
@@ -47,11 +47,11 @@ Go语言的并发是基于 `goroutine` 的，`goroutine` 类似于线程，但�
 
 与其他现代高级语言（如Java/Python）相比，使用C，C++的最大好处是它们的性能。因为C/ C++是编译型语言而不是解释的语言。 处理器只能理解二进制文件，Java和Python这种高级语言在运行的时候需要先将人类可读的代码翻译成字节码，然后由专门的解释器再转变成处理器可以理解的二进制文件。
 
-![](/static/image/introduction/about_golang_2.jpg)
+![](/doc/static/image/introduction/about_golang_2.jpg)
 
 同C,C++一样，Go语言也是编译型的语言，它直接将人类可读的代码编译成了处理器可以直接运行的二进制文件，执行效率更高，性能更好。
 
-![](/static/image/introduction/about_golang_3.jpg)
+![](/doc/static/image/introduction/about_golang_3.jpg)
 
 数据来源：[https://benchmarksgame-team.pages.debian.net/benchmarksgame/](https://benchmarksgame-team.pages.debian.net/benchmarksgame/)
 
@@ -69,7 +69,7 @@ Go 语言提供了一套格式化工具——go fmt。一些 Go 语言的开发�
 
 #### 开发效率高
 
-![](/static/image/introduction/about_golang_4.jpg)
+![](/doc/static/image/introduction/about_golang_4.jpg)
 
 Go语言实现了开发效率与执行效率的完美结合，让你像写Python代码（效率）一样编写C代码（性能）。
 
@@ -85,7 +85,7 @@ Go语言简单易学，天生支持并发，完美契合当下高并发的互联
 
 下图是应用Go语言的公司举例：
 
-![](/static/image/introduction/about_golang_5.png)
+![](/doc/static/image/introduction/about_golang_5.png)
 
 除了上面列出的大厂外，很多小型公司或创业公司也开始使用Go语言，并且很多公司把Go语言作为其主要开发语言。
 

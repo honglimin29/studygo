@@ -3,7 +3,7 @@
 一步一步，从零开始搭建Go语言开发环境。
 
 # 安装Go语言及搭建Go语言开发环境
-![](/static/image/development/install_go_dev_1.jpg)
+![](/doc/static/image/development/install_go_dev_1.jpg)
 
 ### 下载
 
@@ -16,7 +16,7 @@ Go官方镜像站（推荐）：[https://golang.google.cn/dl/](https://golang.go
 #### 版本的选择
 
 Windows平台和Mac平台推荐下载可执行文件版，Linux平台下载压缩文件版。
-![](/static/image/development/install_go_dev_2.png)
+![](/doc/static/image/development/install_go_dev_2.png)
 
 ### 安装
 
@@ -25,15 +25,15 @@ Windows平台和Mac平台推荐下载可执行文件版，Linux平台下载压�
 此安装实例以 `64位Win10`系统安装 `Go1.11.5可执行文件版本`为例。
 
 将上一步选好的安装包下载到本地。  
-![](/static/image/development/install_go_dev_3.png)
+![](/doc/static/image/development/install_go_dev_3.png)
   
 双击下载好的文件
 
-![](/static/image/development/install_go_dev_4.png)
+![](/doc/static/image/development/install_go_dev_4.png)
 
-![](/static/image/development/install_go_dev_5.png)
+![](/doc/static/image/development/install_go_dev_5.png)
 
-![](/static/image/development/install_go_dev_6.png)
+![](/doc/static/image/development/install_go_dev_6.png)
 
 #### Linux下安装
 
@@ -62,7 +62,7 @@ go version go1.11.5 linux/amd64
 #### Mac下安装
 
 下载可执行文件版，直接点击**下一步**安装即可，默认会将go安装到`/usr/local/go`目录下。
-![](/static/image/development/mac_install_go.png)
+![](/doc/static/image/development/mac_install_go.png)
 
 #### 检查
 上一步安装过程执行完毕后，可以打开终端窗口，输入`go version`命令，查看安装的Go版本。
@@ -75,19 +75,19 @@ go version go1.11.5 linux/amd64
 
 Linux和Mac平台就参照上面配置环境变量的方式将自己的工作目录添加到环境变量中即可。 Windows平台按下面的步骤将`D:\code\go`添加到环境变量：
 
-![](/static/image/development/install_go_dev_7.png)
+![](/doc/static/image/development/install_go_dev_7.png)
 
-![](/static/image/development/install_go_dev_8.png)
+![](/doc/static/image/development/install_go_dev_8.png)
 
-![](/static/image/development/install_go_dev_9.png)
+![](/doc/static/image/development/install_go_dev_9.png)
 
-![](/static/image/development/install_go_dev_10.png)
+![](/doc/static/image/development/install_go_dev_10.png)
 
-![](/static/image/development/install_go_dev_11.png)
+![](/doc/static/image/development/install_go_dev_11.png)
 
-![](/static/image/development/install_go_dev_12.png)
+![](/doc/static/image/development/install_go_dev_12.png)
 
-![](/static/image/development/install_go_dev_13.png)
+![](/doc/static/image/development/install_go_dev_13.png)
 
 在 Go 1.8 版本之前，`GOPATH`环境变量默认是空的。从 Go 1.8 版本开始，Go 开发包在安装完成后会为 `GOPATH`设置一个默认目录，参见下表。
 

@@ -1,3 +1,7 @@
+/**
+Go语言基础之变量和常量
+*/
+
 package main
 
 import "fmt"
@@ -25,10 +29,13 @@ func foo() (int, string) {
 
 func main() {
 
+	var name string
+	name = "洪李敏"
 	n := 100
 
 	fmt.Println(m, n)
 	fmt.Println(pi)
+	fmt.Println(name)
 
 	fmt.Println("kb=", kb)
 	fmt.Println("mb=", mb)
