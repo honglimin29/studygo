@@ -7,7 +7,7 @@
 
 ### 下载
 
-#### 下载地址go
+#### 下载地址
 
 Go官网下载地址：[https://golang.org/dl/](https://golang.org/dl/)
 

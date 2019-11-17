@@ -6,10 +6,15 @@
 
 [为什么你应该学习Go语言?](/doc/introduction/about_golang.md)
 
+[Go语言发展历史](/doc/introduction/history_golang.md)
+
+[Go语言主要特征](/doc/introduction/feature_golang.md)
+
 ### 开发环境准备
 
-[从零开始搭建Go语言开发环境](/doc/development/install_go_dev.md)
+[从零开始搭建Go语言开发环境-安装Go](/doc/development/install_go_dev.md)
 
+[从零开始搭建Go语言开发环境-安装IDE](/doc/development/install_ide_dev.md)
 ### Go语言基础
 
 [Go语言基础之变量和常量]()
